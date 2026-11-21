@@ -5,3 +5,8 @@ numpy==2.2.6
 pandas==2.2.3
 scikit-learn==1.6.1
 scipy==1.15.3
+
+# Полный пересчёт на Linux x86_64 с NVIDIA CUDA.
+torch==2.11.0; sys_platform == "linux" and platform_machine == "x86_64"
+transformers==5.8.0; sys_platform == "linux" and platform_machine == "x86_64"
+accelerate==1.13.0; sys_platform == "linux" and platform_machine == "x86_64"
