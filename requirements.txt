@@ -1,0 +1,7 @@
+catboost==1.2.8
+ipykernel==6.29.5
+nbconvert==7.16.6
+numpy==2.2.6
+pandas==2.2.3
+scikit-learn==1.6.1
+scipy==1.15.3
